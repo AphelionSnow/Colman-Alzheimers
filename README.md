@@ -1,6 +1,4 @@
-###############
-# **OVERVIEW**
-###############
+**OVERVIEW**
 I've set up this repository with the intent of opening this project up to the open-source community. The goal of this project is to create an open-source application that will help those affected by Alzheimer's when they're struggling to find words in conversation. 
 
 As many of your are likely aware, a lot of the frustration for those with Alzheimer's early-on is derived from the feelings of annoyance and powerlessness when their train of thought is constantly interrupted by the inability to communicate their thoughts and ideas. Alzheimer's and other forms of dementia are very complex conditions, however--after having vulnerable conversations with multiple individuals struggling with the condition--I have strong reason to believe that the social withdrawal & isolation response is not fully a direct outcome of the condition itself. It seems very likely that this behavioral trend is at least *to some extent* due to the culmination of negative experiences, internal frustration, and feelings of helplessness that are linked to the action of social engagement. To what extent? I can't say, as this is not a scientifically grounded conclusion.
@@ -9,9 +7,7 @@ I ran the idea for this sort of program by a dear friend of mine suffering from 
 
 I want this project to remain open-source so that it can reasonably help as many people as possible with minimal barriers, but this means I can't afford to do this alone. I recognize that there are many incredible people and communities who contribute to open-source projects, and I hope that this is something you deem worth your time to assist with.
 
-###############
 # **Improvements**
-###############
 Quick list of largest current limitations if you need ideas on where to start:
 • The ASR (automatic speech recognition module) takes a while to process speech into text. Something with lower latency at the expense of some level of accuracy would likely be much more practical.
 • Currently drawing from a pre-defined set of terms for the response dictionary as a sort of "placeholder" for a more holistic dictionary search. Configuring this is necessary for practical application.
