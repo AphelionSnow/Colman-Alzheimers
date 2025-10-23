@@ -10,7 +10,7 @@ I ran the idea for this sort of program by a dear friend of mine suffering from 
 
 I want this project to remain open-source so that it can reasonably help as many people as possible with minimal barriers, but this means I can't afford to do this alone. I recognize that there are many incredible people and communities who contribute to open-source projects, and I hope that this is something you deem worth your time to assist with.
 
-# **Improvements**
+# **Technical Improvements**
 Quick list of largest current limitations if you need ideas on where to start:
 
 • The ASR (automatic speech recognition module) takes a while to process speech into text. Something with lower latency at the expense of some level of accuracy would likely be much more practical.
@@ -20,3 +20,5 @@ Quick list of largest current limitations if you need ideas on where to start:
 • Current interface is not reasonably functional for and end-user.
 
 • Repository is horrendously organized. If you want to completely restructure this for ease of development, please do ;-;
+
+• Implementation of personal_vocabulary that updates in response to words successfully found. Preferably err towards undervaluing this in the scoring algorithm if you set this up prior to the base program being solidly funcitonal without it (or otherwise create a scoring algorithm for base-function development that does not score this module for testing).
